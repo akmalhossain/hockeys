@@ -1,0 +1,10 @@
+.junior-programmer{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/2.png);
+}
+
+.teenager-program{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/3.png);
+}
+.professional-program{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/4.png);
+}

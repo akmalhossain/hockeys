@@ -15,6 +15,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- daisyUi cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- style.css -->
+   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- tailwind css cdn -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -35,6 +37,11 @@
           },
           fontFamily: {
             Manrope: 'Manrope',
+          },
+          backgroundImage:{
+            juniorProgram:"url('./images/2.png')",
+            teenagerProgram:"url('./images/2.png')",
+            professionalProgram:"linear-gradient('45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)' ) url('./images/2.png')",
           },
         },
       },
@@ -123,7 +130,7 @@
   <main class="container mx-auto px-5 lg:px-0">
 
     <!-- professional hockeys club start -->
-    <section class="my-24 space-y-6 lg:space-y-12">
+    <section class="mt-24 space-y-6 lg:space-y-12">
        <!-- title and sub title start-->
      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
       <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Professional Hockeys Club</h2>
@@ -177,6 +184,46 @@
       
     </section>
     <!-- professional hockeys club end -->
+
+    <!-- Program Sections start -->
+     <section class="mt-24 space-y-6 lg:space-y-12">
+      <!-- title and sub title start-->
+     <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+      <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Program Sections</h2>
+      <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+     </div>
+     <!-- title and sub title end -->
+     <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!--program card 1 -->
+       <div class="junior-programmer bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+          <div class="w-10/12 space-y-6">
+            <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+            <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
+          </div>
+       </div>
+       <!-- 2 -->
+       <div class="teenager-program bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+        <div class="w-10/12 space-y-6">
+          <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+          <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
+        </div>
+     </div>
+     <!-- 3 -->
+     <div class="professional-program col-span-1 lg:col-span-2 bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+      <div class="w-9/12 lg:w-4/12 space-y-6">
+        <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+        <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
+      </div>
+   </div>
+     </div>
+     </section>
+    <!-- Program Sections end -->
    
   </main>
   <!-- main end -->
