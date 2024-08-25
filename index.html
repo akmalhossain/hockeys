@@ -16,7 +16,7 @@
   <!-- daisyUi cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <!-- style.css -->
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- tailwind css cdn -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -29,19 +29,28 @@
             primary: '#FF4240',
             menuColor: '#424247',
             titles: '#131318',
+            titlesLight: 'rgba(19, 19, 24, 0.5)',
+            titlesLight2: 'rgba(19, 19, 24, 0.6)',
+            titlesLight3: 'rgba(19, 19, 24, 0.4)',
             accent: '#89898b',
             body: 'rgba(19, 19, 24, 0.6)',
             whiteTwo: 'rgba(255, 255, 255, 0.6)',
             rular: 'rgba(19, 19, 24, 0.2)',
+            rular2: 'rgba(19, 19, 24, 0.1)',
+            phoneBg: 'rgba(188, 237, 109, 0.1)',
+            emailBg: 'rgba(253, 221, 95, 0.1)',
+            locationBg: 'rgba(98, 156, 243, 0.1)',
+            inputBg: 'rgba(19, 19, 24, 0.03)',
+            
 
           },
           fontFamily: {
             Manrope: 'Manrope',
           },
-          backgroundImage:{
-            juniorProgram:"url('./images/2.png')",
-            teenagerProgram:"url('./images/2.png')",
-            professionalProgram:"linear-gradient('45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)' ) url('./images/2.png')",
+          backgroundImage: {
+            juniorProgram: "url('./images/2.png')",
+            teenagerProgram: "url('./images/2.png')",
+            professionalProgram: "linear-gradient('45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)' ) url('./images/2.png')",
           },
         },
       },
@@ -131,104 +140,600 @@
 
     <!-- professional hockeys club start -->
     <section class="mt-24 space-y-6 lg:space-y-12">
-       <!-- title and sub title start-->
-     <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
-      <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Professional Hockeys Club</h2>
-      <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-     </div>
-     <!-- title and sub title end -->
+      <!-- title and sub title start-->
+      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+        <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Professional Hockeys Club</h2>
+        <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur.
+          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <!-- title and sub title end -->
 
       <!-- redial progress bar start -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-        
-         <!-- redial progress  1-->
+
+        <!-- redial progress  1-->
         <div class="flex flex-col justify-center items-center text-center">
-           <div class="relative">
-            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;" role="progressbar"></div>
-            <div class="radial-progress text-primary rotate-[145deg]" style="--value:87; --size:8rem;" role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]" >87%</span></div>
-           </div>
+          <div class="relative">
+            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;"
+              role="progressbar"></div>
+            <div class="radial-progress text-primary rotate-[145deg]" style="--value:87; --size:8rem;"
+              role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]">87%</span></div>
+          </div>
           <h3 class="text-titles text-xl font-semibold mt-6">Prayer Facility</h3>
           <p class="w-64 text-body leading-7 mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
 
-         <!-- redial progress  2-->
+        <!-- redial progress  2-->
 
         <div class="flex flex-col justify-center items-center text-center">
-           <div class="relative">
-            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;" role="progressbar"></div>
-            <div class="radial-progress text-[#49D293] rotate-[145deg]" style="--value:87; --size:8rem;" role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]" >87%</span></div>
-           </div>
+          <div class="relative">
+            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;"
+              role="progressbar"></div>
+            <div class="radial-progress text-[#49D293] rotate-[145deg]" style="--value:87; --size:8rem;"
+              role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]">87%</span></div>
+          </div>
           <h3 class="text-titles text-xl font-semibold mt-6">Experienced Coach</h3>
           <p class="w-64 text-body leading-7 mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
-         <!-- redial progress  3-->
+        <!-- redial progress  3-->
         <div class="flex flex-col justify-center items-center text-center">
-           <div class="relative">
-            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;" role="progressbar"></div>
-            <div class="radial-progress text-[#FFB546] rotate-[145deg]" style="--value:87; --size:8rem;" role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]" >87%</span></div>
-           </div>
+          <div class="relative">
+            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;"
+              role="progressbar"></div>
+            <div class="radial-progress text-[#FFB546] rotate-[145deg]" style="--value:87; --size:8rem;"
+              role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]">87%</span></div>
+          </div>
           <h3 class="text-titles text-xl font-semibold mt-6">Senior Player</h3>
           <p class="w-64 text-body leading-7 mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
-         <!-- redial progress  4-->
+        <!-- redial progress  4-->
         <div class="flex flex-col justify-center items-center text-center">
-           <div class="relative">
-            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;" role="progressbar"></div>
-            <div class="radial-progress text-[#4C8DF1] rotate-[145deg]" style="--value:87; --size:8rem;" role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]" >87%</span></div>
-           </div>
+          <div class="relative">
+            <div class="absolute top-0 left-0 radial-progress text-[#E7E7E8]" style="--value:100; --size:8rem;"
+              role="progressbar"></div>
+            <div class="radial-progress text-[#4C8DF1] rotate-[145deg]" style="--value:87; --size:8rem;"
+              role="progressbar"><span class="text-[28px] font-extrabold text-titles -rotate-[145deg]">87%</span></div>
+          </div>
           <h3 class="text-titles text-xl font-semibold mt-6">Training Ground</h3>
           <p class="w-64 text-body leading-7 mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
       </div>
       <!-- redial progress bar end -->
-      
+
     </section>
     <!-- professional hockeys club end -->
 
     <!-- Program Sections start -->
-     <section class="mt-24 space-y-6 lg:space-y-12">
+    <section class="mt-24 space-y-6 lg:space-y-12 my-24">
       <!-- title and sub title start-->
-     <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
-      <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Program Sections</h2>
-      <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-     </div>
-     <!-- title and sub title end -->
-     <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+        <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Program Sections</h2>
+        <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur.
+          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <!-- title and sub title end -->
+      <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!--program card 1 -->
-       <div class="junior-programmer bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+        <div
+          class="junior-programmer bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
           <div class="w-10/12 space-y-6">
             <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
-            <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-              <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
+            <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+              elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register
+              Now</button>
           </div>
-       </div>
-       <!-- 2 -->
-       <div class="teenager-program bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
-        <div class="w-10/12 space-y-6">
-          <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
-          <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-            <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
         </div>
-     </div>
-     <!-- 3 -->
-     <div class="professional-program col-span-1 lg:col-span-2 bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
-      <div class="w-9/12 lg:w-4/12 space-y-6">
-        <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
-        <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-          <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register Now</button>
+        <!-- 2 -->
+        <div
+          class="teenager-program bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+          <div class="w-10/12 space-y-6">
+            <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+            <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+              elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register
+              Now</button>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div
+          class="professional-program col-span-1 lg:col-span-2 bg-no-repeat  bg-cover bg-center p-24 lg:px-10  lg:pt-24 lg:pb-10 rounded-xl Lg:rounded-lg">
+          <div class="w-9/12 lg:w-4/12 space-y-6">
+            <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+            <p class="font-medium leading-7 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+              elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <button class="btn bg-primary text-white text-xl font-bold px-[24px] py-[15px] h-fit border-none">Register
+              Now</button>
+          </div>
+        </div>
       </div>
-   </div>
-     </div>
-     </section>
+    </section>
     <!-- Program Sections end -->
-   
+    <!-- our new products section start -->
+    <!-- title and sub title start-->
+    <section class="my-24">
+
+      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+        <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Program Sections</h2>
+        <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur.
+          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <!-- title and sub title end -->
+      <!-- cards  -->
+      <div class="mt-12">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!--card 1 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/5.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--card 2 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/6.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--card 3 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/7.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--card 4 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/8.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--card 5 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/9.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--card 6 -->
+          <div class="flex flex-col lg:flex-row gap-5 items-center bg-base-100 border border-rular rounded-2xl h-fit p-6">
+            <figure class="lg:w-fit w-full">
+              <img src="./Images/10.png" alt="Movie" class="w-full" />
+            </figure>
+              
+            
+            <div class=" space-y-4">
+              <!-- star -->
+              <div class="space-y-3">
+                <div class="flex items-center spacey gap-4">
+                
+                  <div class="rating flex items-center gap-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <p class="font-medium text-titlesLight">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/eye.svg" alt="">
+                    <p class="font-medium text-titlesLight">20</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./icons/love.svg" alt="">
+                    <p class="font-medium text-titlesLight">200</p>
+                  </div>
+                   <!-- end -->
+                </div>
+                <h2 class="card-title text-titles text-xl font-extrabold">World Cup Flags Football</h2>
+                <p class="text-titlesLight2 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div>
+              <div class="flex flex-col lg:flex-row lg:items-center gap-5 ">
+               <h4 class="text-primary font-extrabold text-lg">Price - $22.00</h4>
+
+               <div class="flex items-center gap-2">
+                <img src="./icons/cart.svg" alt="">
+                <p class="font-medium text-titlesLight">Delivery Fee : Free</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+         
+          
+         
+        </div>
+      </div>
+      <!-- our new products section end -->
+
+    </section>
+    <!-- clients question start -->
+     <section class="my-24">
+      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+        <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Program Sections</h2>
+        <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur.
+          Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+
+      <div class="my-12 border border-rular2 p-8 rounded-2xl flex flex-col lg:flex-row lg:items-center gap-6 justify-between">
+        <div>
+          <img src="./Images/11.png" alt="" class="w-full">
+        </div>
+        <div class="lg:w-1/2">
+          <!-- accordion 1 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-bold">Our Equipment</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- accordion 2 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3"  />
+            <div class="collapse-title text-xl font-bold">Hockey Training</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- accordion 3 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3"  />
+            <div class="collapse-title text-xl font-bold">Private Lessons</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- accordion 4 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3"  />
+            <div class="collapse-title text-xl font-bold">Ski Touring</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- accordion 5 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3"  />
+            <div class="collapse-title text-xl font-bold">Booking</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- accordion 6 -->
+          <div class="collapse collapse-plus bg-white border-b-2 border-rular2 rounded-none w-full">
+            <input type="radio" name="my-accordion-3"  />
+            <div class="collapse-title text-xl font-bold">Pricings</div>
+            <div class="collapse-content">
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          <!--  -->
+          
+          <!-- end -->
+        </div>
+      </div>
+
+     
+      <!-- title and sub title end -->
+     </section>
+    <!-- clients question end -->
+     <!-- get in touch -->
+     <section class="my-24">
+      <div class="py-6 px-5 lg:py-8 space-y-4 lg:space-y-6 text-center border-y-[1px] border-dashed border-rular">
+        <h2 class="text-[22px]  lg:text-4xl text-titles font-extrabold">Get In Touch</h2>
+        <p class="w-9/12 lg:w-2/5 text-body text-sm lg:text-base font-medium leading-7 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+      </div>
+      <!-- title and sub title end -->
+       <!-- left side  -->
+       <div class="mt-12 lg:flex  gap-6">
+         <div class="border rounded-2xl lg:w-5/12 space-y-6 p-12">
+          <!-- card 1  -->
+          <div class="bg-phoneBg items-start border border-rular2 rounded-2xl p-12 space-y-6">
+            <figure>
+            <img src="./icons/phone.png" alt="">
+            </figure>
+            <div class="space-y-2">
+              <p class="text-base text-titlesLight3">Phone Number</p>
+              <p class="text-lg font-extrabold text-titles">(+62) 123-321-543</p>
+            </div>
+          </div>
+          <!-- end  -->
+          <!-- card 2  -->
+          <div class="bg-emailBg items-start border  border-rular2 rounded-2xl  p-12 space-y-6">
+            <figure>
+            <img src="./icons/email.png" alt="">
+            </figure>
+            <div class="space-y-2">
+              <p class="text-base text-titlesLight3">Email :</p>
+              <p class="text-lg font-extrabold text-titles">hockeys@support.com</p>
+            </div>
+          </div>
+          <!-- end  -->
+          <!-- card 3  -->
+          <div class="bg-locationBg items-start border border-rular2 rounded-2xl p-12 space-y-6">
+            <figure>
+            <img src="./icons/location.png" alt="">
+            </figure>
+            <div class="space-y-2">
+              <p class="text-base text-titlesLight3">Location</p>
+              <p class="text-lg font-extrabold text-titles">152/1 Mohakhali Wireless Gate</p>
+            </div>
+          </div>
+          <!-- end  -->
+         </div>
+      <!-- right side  -->
+         <div class="lg:w-7/12">
+          <form action="" class="lg:grid lg:grid-cols-2 gap-6">
+            <!-- your name -->
+            <label class="form-control">
+              <div class="label">
+                <span class="text-xl text-titles font-bold">Your Name</span>
+              </div>
+              <input type="text" placeholder="Enter your full name" class="bg-inputBg p-5 rounded-xl w-full" />
+            </label>
+            <!-- end name -->
+             <!-- your email -->
+            <label class="form-control">
+              <div class="label">
+                <span class="text-xl text-titles font-bold">Your Email</span>
+              </div>
+              <input type="text" placeholder="Enter your email" class="bg-inputBg p-5 rounded-xl w-full " />
+            </label>
+            <!-- email end  -->
+            <!-- subject -->
+            <label class="form-control">
+              <div class="label">
+                <span class="text-xl text-titles font-bold">Subject</span>
+              </div>
+              <input type="text" placeholder="Enter your subject" class="bg-inputBg p-5 rounded-xl w-full" />
+            </label>
+            <!-- end name -->
+             <!-- your email -->
+            <label class="form-control">
+              <div class="label">
+                <span class="text-xl text-titles font-bold">Phone Number</span>
+              </div>
+              <input type="text" placeholder="Enter your phone number" class="bg-inputBg p-5 rounded-xl w-full " />
+            </label>
+            <!-- email end  -->
+             <!-- message -->
+             <label class="form-control col-span-2">
+              <div class="label">
+                <span class="text-xl text-titles font-bold">Message</span>
+              </div>
+              <textarea class="bg-inputBg p-5 rounded-xl w-full " rows="18" placeholder="Write your message"></textarea>
+              
+            </label>
+             <!-- message end-->
+             <button class="btn w-full bg-primary text-white font-bold text-xl col-span-2 mt-6 lg:mt-0">Send Message</button>
+          </form>
+         </div>
+         <!-- social media -->
+         
+       </div>
+       <div class="container mt-12 bg-inputBg p-9">
+        <div class="w-3/12 mx-auto space-y-6">
+         <h4 class="text-center font-extrabold text-2xl text-titles">Social Media</h4>
+         <div class="flex justify-center items-center gap-8 mx-auto">
+           <img src="./icons/tw.svg" alt="X">
+           <img src="./icons/fb.svg" alt="facebook">
+           <img src="./icons/ins.svg" alt="instagram">
+           <img src="./icons/git.svg" alt="github">
+         </div>
+
+        </div>
+      </div>
+     </section>
+    
+     <!-- get in touch end -->
   </main>
   <!-- main end -->
-  <footer>
-
+  <footer class="bg-titles">
+    <div class="container mx-auto">
+      <footer class="footer  text-white p-10">
+        <aside>
+          <p>
+           Get In touch
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+    </div>
   </footer>
   <!-- footer end -->
 
